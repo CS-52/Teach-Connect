@@ -89,3 +89,20 @@ body {
     border-bottom: 0;
   }
 }
+
+#lessons {
+  border: 3px dotted lightgrey;
+
+  .lesson {
+    margin-top: 50px;
+    padding: 30px;
+    border-color: #2196F3;
+    border-style: dotted;
+    border-left-style: solid;
+    background-color: #ddffff;
+
+    .lead {
+      color: purple;
+    }
+  }
+}
